@@ -1,0 +1,68 @@
+.container{
+    display: grid;
+    grid-template-columns:0.05fr 0.1fr 0.9fr;
+    
+}
+.top{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.numero{
+    
+    background-color: green;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    align-items: center;
+
+}
+.photos{
+    background-color: bisque;
+    height:500px;
+}
+.footer{
+  background-color: black;
+  height: 50px;
+}
+
+.photos{ 
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.photos img{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 200px;
+    width: 300px;
+}
+.shopped{
+    background-color: white;
+    width: 100px;
+    height: 80px;
+}
+.button{
+    background-color: green;
+    width: 80px;
+    margin-left: 700px;
+    margin-top: -70px;
+}
+.item{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+}
+.changecolor{
+   
+   
+    background-color: orange;
+}
+
+button{
+    background-color: green;
+    border: none;
+}
+.fa-shopping-bag{
+    color: black; margin-left: 50px; margin-top: 0px;
+}
